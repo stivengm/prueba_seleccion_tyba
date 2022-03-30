@@ -27,7 +27,7 @@ class LoginView extends StatelessWidget {
             children: [
               const FormLoginView(),
               const SizedBox(height: 20.0),
-              PrimaryButton(text: 'Login', onPressed: () {})
+              PrimaryButton(text: 'Siguiente', onPressed: () {})
             ]
           ),
         ),
