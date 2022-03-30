@@ -59,7 +59,8 @@ class _MenuDrawerZoomViewState extends State<MenuDrawerZoomView> {
                   text: 'Cerrar sesión',
                   onPressed: () => Navigator.pushNamedAndRemoveUntil(context, 'login', (route) => false),
                 ),
-              )
+              ),
+              const SizedBox(height: 15.0)
             ],
           ),
         ),
@@ -69,7 +70,7 @@ class _MenuDrawerZoomViewState extends State<MenuDrawerZoomView> {
 
   Widget buildMenuItem(MenuItemModel item) {
     return ListTileTheme(
-      selectedColor: Colors.white,
+      selectedColor: Colors.black,
       child: ListTile(
         selectedColor: Colors.black,
         selected: widget.currentItem == item,
