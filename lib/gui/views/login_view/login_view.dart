@@ -47,7 +47,7 @@ class _LoginViewState extends State<LoginView> {
                 )
               ),
               const SizedBox(height: 15.0),
-              PrimaryButton(text: 'Siguiente', onPressed: () {})
+              PrimaryButton(text: 'Siguiente', onPressed: () => Navigator.pushNamed(context, 'home'))
             ]
           ),
         ),
